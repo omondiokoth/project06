@@ -1,0 +1,161 @@
+@charset "utf-8";
+div.page-main{
+    box-sizing: border-box;
+    height: 500px;
+    width: 960px;
+    margin: 0 auto;
+}
+
+div.page-main section{
+    height: 250px;
+    box-sizing: border-box;
+    
+}
+
+div.page-main section h3{
+    font-weight: 100;
+    font-size: 20px;
+    letter-spacing: -1px;
+    height: 30px;
+    line-height: 30px;
+}
+
+div.page-main section h3 span{
+    display: block;
+    float: left;
+    width: 12px;
+    height: 12px;
+    background: #ccc;
+    margin-right: 15px;
+    margin-top: 10px;
+    border: 3px solid #00aeef;
+    box-sizing: border-box;
+    transform: rotate(45deg)
+}
+div.page-main .notice{
+    padding: 30px 0  30px 20px;
+    width: 960px;
+}
+
+div.page-main .notice .board{
+    height: 160px;
+   
+}
+div.page-main .notice .board ul{
+    width: 600px;
+     height: 150px;
+    margin-top: 5px;
+    border-top: 5px solid #00aeef;
+}
+div.page-main .notice .board ul li{
+    height: 25px;
+    line-height: 25px;
+    box-sizing: border-box;
+    border-bottom: 1px dotted #ccc;
+    font-size: 13px;
+/*    padding-left: 10px;*/
+}
+div.page-main .notice .board ul li a{
+    color: #666;
+    display: block;
+    padding-left: 10px;
+}
+div.page-main .notice .board ul li a:hover{
+    transition: all 0.2s;
+    background: #00aeef;
+    color: #efefef;
+}
+
+div.page-main .notice .board ul li a span{
+    display: block;
+    float: right;
+    width: 90px;
+}
+
+/*icons*/
+div.page-main .icons{
+    width: 480px;
+    float:left; 
+}
+
+section.icons .icon-box{
+    height: 125px;
+}
+
+section.icons .icon-box h3{
+    float: left;
+    width: 220px;
+    height: 125px;
+    line-height: 125px;
+    text-align: center;
+    background: #00aeef;
+    color: #fff;
+}
+section.icons .h2 h3{
+    background: #00397d;
+}
+
+section.icons div:nth-child(2) h3{
+    background: #;
+}
+
+section.icons .icon-box h3 span{
+    display: none;
+}
+
+section.icons .icon-box a img{
+    float: left;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    margin-top:22.5px;;
+    margin-left:90px;
+     background: #efefef;  
+}
+
+section.icons .icon-box a{
+    float: left;
+    width: 260px;
+    height: 125px;
+    background: #efefef;  
+}
+
+
+/*parter*/
+div.page-main .partner{
+    width: 480px;
+    float: left;
+    padding: 0 0 30px 20px;
+    background: #00397d;
+}
+div.page-main .partner a{
+    display: block;
+    width: 350px;
+    height: 140px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-size: 350px;
+    background: url("../img/content/event_grey.jpg") 0 0 no-repeat;
+    
+}
+div.page-main .partner a:hover{
+    background: url("../img/content/content1.jpg") 0 0 no-repeat;
+    background-size: 350px 140px;
+    transition: all 0.5s;
+}
+
+div.page-main .partner a img{
+    width: 350px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+div.page-main .partner p{
+    width: 390px;
+    margin:  0 auto;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 18px;
+    color: #efefef;
+    
+}
